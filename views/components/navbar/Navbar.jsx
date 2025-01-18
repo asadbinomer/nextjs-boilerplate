@@ -116,7 +116,7 @@ const Navbar = () => {
         </div>
 
         {/* Action Buttons */}
-        <div className="z-50 flex items-center gap-3">
+        <Button className="">
           <Link 
             href={RouteConstant.LOGIN}
             className="transition-all duration-300 hover:scale-105 hover:shadow-md btn-primary"
@@ -133,7 +133,7 @@ const Navbar = () => {
           >
             {mobileNavbar ? <CrossIcon /> : <MenuIcon />}
           </button>
-        </div>
+        </Button>
       </nav>
     </header>
   );
